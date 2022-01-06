@@ -4,7 +4,7 @@ const axios = require('axios');
 axios.get('https://api.openweathermap.org/data/2.5/weather', {
   params: {
     q: "hanoi",
-    appid: '32869e3e8f5554bbf48d05172e7085d2'
+    appid: '{your-app-id}'
   }
 })
   .then(function (response) {
