@@ -1,0 +1,18 @@
+{
+  "name": "call-web-services",
+  "version": "1.0.0",
+  "description": "call web services by soap module",
+  "main": "ws-soap-module",
+  "scripts": {
+    "start": "node ws-soap-module",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "soap"
+  ],
+  "author": "sinhnx",
+  "license": "MIT",
+  "dependencies": {
+    "soap": "^0.43.0"
+  }
+}

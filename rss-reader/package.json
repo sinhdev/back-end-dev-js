@@ -1,0 +1,21 @@
+{
+  "name": "rss-reader",
+  "version": "1.0.0",
+  "description": "rss parser",
+  "main": "rss-parser-module",
+  "scripts": {
+    "start": "node rss-parser-module",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "reader",
+    "rss",
+    "parser"
+  ],
+  "author": "sinhnx",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.12.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "call-restful-api",
+  "version": "1.0.0",
+  "description": "restful api,axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "axios"
+  ],
+  "author": "sinhnx.dev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
