@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 
 // get config vars
 dotenv.config();
-
 // access config var
 process.env.TOKEN_SECRET;
 
@@ -29,6 +28,7 @@ app.post('/api/createNewUser', (req, res) => {
 app.get('/api/userOrders', authenticateToken, (req, res) => {
   // executes after authenticateToken
   // ...
+  res.json({message: "authorization..."})
 })
 
 function authenticateToken(req, res, next) {
@@ -39,11 +39,8 @@ function authenticateToken(req, res, next) {
 
   jwt.verify(token, process.env.TOKEN_SECRET, (err, user) => {
     console.log(err)
-
     if (err) return res.sendStatus(403)
-
     req.user = user
-
     next()
   })
 }
